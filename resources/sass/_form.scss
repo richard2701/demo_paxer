@@ -1,0 +1,39 @@
+.form-control.form-material {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .0rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 0 solid #ced4da;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input#DateTimePicker {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #000000 !important;
+  padding: .375rem .0rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: #a1cbef;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.ctk-date-time-picker .field .field-input {
+  cursor: pointer;
+  background-color: #fff0 !important;
+}
